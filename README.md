@@ -84,7 +84,7 @@ Here are some example messages and their parsed results:
 
 1. **Message:**
    ```
-   TAD62EDKVQ Imethibitishwa Ksh1.00 imetumwa kwa Eliud Otieno 0792469173 tarehe 13/1/25 saa 5:44 PM. Baki yako ya M-PESA ni Ksh263.47. Gharama ya kutuma ni Ksh0.00.
+   TAD62EDKVQ Imethibitishwa Ksh1.00 imetumwa kwa John Doe 0729641937 tarehe 13/1/25 saa 5:44 PM. Baki yako ya M-PESA ni Ksh263.47. Gharama ya kutuma ni Ksh0.00.
    ```
 
    **Parsed Result:**
@@ -92,8 +92,8 @@ Here are some example messages and their parsed results:
    {
        "transaction_id": "TAD62EDKVQ",
        "kutuma_amount": "1.00",
-       "kutuma_recipient": "Eliud Otieno",
-       "kutuma_phone": "0792469173",
+       "kutuma_recipient": "John Doe",
+       "kutuma_phone": "0729641937",
        "datetime": "2025-01-13 17:44:00",
        "mpesa_balance": 263.47,
        "transaction_cost": 0.0,
